@@ -1,0 +1,4 @@
+name = Islands
+description = Islands connect.
+package = Islands
+core = 7.x

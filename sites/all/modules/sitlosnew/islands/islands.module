@@ -1,0 +1,22 @@
+<?php
+
+function islands_init(){
+  drupal_set_message('islands');
+}
+
+function islands_html_head_alter(&$head_elements){
+  $head_elements['islands_interaction'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array('property' => 'ya:interaction', 'content' => 'XML_FORM'),
+  );
+  $head_elements['islands_interaction_url'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array('property' => 'ya:interaction:url', 'content' => '/sites/all/islands.xml'),
+  );
+}
+
+function islands_settings_form($form, &$form_state){
+  return $form;
+}
