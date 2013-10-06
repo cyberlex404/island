@@ -1,0 +1,30 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+body{
+    background: url('/sites/all/themes/sitlos/images/bg.png') repeat transparent center center;
+}
+
+#page-wrapper{
+    background: url('/sites/all/themes/sitlos/images/bg_bottom.png') repeat-x transparent center bottom;
+}
+
+#page{
+    background: url('/sites/all/themes/sitlos/images/bg_bg.png') repeat-x transparent center top;
+}
+
+
+#menu-bar{
+    background: url('/sites/all/themes/sitlos/images/menu_bg.png') repeat-x scroll center top transparent;
+}
+
+#block-panels-mini-header{
+    background: url("/sites/all/themes/sitlos/images/top_wood.jpg") repeat-x scroll center top transparent;
+    padding-top: 20px;
+}
